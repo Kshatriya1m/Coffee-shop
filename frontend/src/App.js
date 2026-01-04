@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './style.css';
 
-const API_BASE = 'http://localhost:4000/api';
+const API_BASE = 'https://coffee-shop-vd1k-git-main-kshatriya1ms-projects.vercel.app/api';
 
 function App() {
   const [products, setProducts] = useState([]);
